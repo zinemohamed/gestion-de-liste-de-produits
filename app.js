@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
         products.forEach(product => {
             const li = document.createElement('li');
             li.className = 'list-group-item d-flex justify-content-between align-items-center';
-            li.textContent = `${product.name} - ${product.price}DH`;
+            li.textContent = `${product.name} - ${product.price}$`;
             productList.appendChild(li);
         });
     }
